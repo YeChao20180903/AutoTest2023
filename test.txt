@@ -6,3 +6,4 @@ version1
 version2
 这是mergeDemo分支上的内容
 mergeDemo分支上新增且要合并的内容
+别人开发好了商品分组功能
