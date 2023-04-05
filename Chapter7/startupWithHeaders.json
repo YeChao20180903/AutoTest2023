@@ -1,0 +1,25 @@
+[
+  {
+    "description": "这是一个带headers信息的post请求",
+    "request": {
+      "method": "post",
+      "uri": "/post/with/header",
+      "cookies": {
+        "login": "true"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "json": {
+        "name": "wanglaowu",
+        "sex": "woman"
+      }
+    },
+    "response": {
+      "json": {
+        "status": "1",
+        "res": "王老五成功了"
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "description": "这是一个重定向的请求",
+    "request": {
+      "uri": "/direct"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "重定向到自己的请求",
+    "request": {
+      "uri": "/directTo"
+    },
+    "redirectTo": "/redirectNew"
+  },
+  {
+    "description": "被重定向到的地址",
+    "request": {
+      "uri": "/redirectNew"
+    },
+    "response": {
+      "text": "重定向成功啦啦啦！！！",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]
