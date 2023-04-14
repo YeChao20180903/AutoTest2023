@@ -6,7 +6,7 @@ logging:
       file: mylog.log
 
 spring:
-      appliction:
+      application:
                 name: myTest
       datasource:
                 driver-class-name: com.mysql.cj.jdbc.Driver

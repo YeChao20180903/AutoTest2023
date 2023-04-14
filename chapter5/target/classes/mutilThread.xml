@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mutilThreadSuite" parallel="classes" thread-count="2">
+    <test name="mutilThreadTest1">
+        <classes>
+            <class name="com.course.testng.mutiThread.MutilThreadOnXml"></class>
+            <class name="com.course.testng.suite.IgnoreTest"></class>
+        </classes>
+    </test>
+
+    <test name="mutilThreadTest2">
+        <classes>
+            <class name="com.course.testng.suite.IgnoreTest"></class>
+        </classes>
+    </test>
+</suite>

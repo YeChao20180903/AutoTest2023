@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/IdeaProjects/AutoTest/chapter5">
+        <classes>
+            <class name="com.course.testng.dependTest.DependOnMethodsTest">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="com.course.testng.exception.ExceptionTest">
+                <methods>
+                    <include name="runTimeExceptionSuccess"/>
+                </methods>
+            </class>
+            <class name="com.course.testng.groups.GroupsOnMethod">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="com.course.testng.suite.IgnoreTest">
+                <methods>
+                    <include name="ignoreTest1"/>
+                    <include name="ignoreTest2"/>
+                    <include name="ignoreTest3"/>
+                </methods>
+            </class>
+            <class name="com.course.testng.suite.LoginTest">
+                <methods>
+                    <include name="loginTaobao"/>
+                </methods>
+            </class>
+            <class name="com.course.testng.suite.PayTest">
+                <methods>
+                    <include name="paySuccess"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
